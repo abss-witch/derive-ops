@@ -2,6 +2,10 @@
 name = "derrive-ops"
 version = "0.1.0"
 edition = "2021"
+readme = "README.md"
+description = "Derives for componetwise opperations"
+repository = "https://github.com/abss-witch/derive-ops/"
+keywords = ["math", "derive", "macro", "ops"]
 
 [lib]
 proc-macro = true
