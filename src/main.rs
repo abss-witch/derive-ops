@@ -32,9 +32,9 @@ fn div(){
 }
 #[test]
 fn rem(){
-    assert_eq!(Foo{ x: 3, b: 2} % Foo{ x: 2, b: 1}, Foo{ x: 1, b: 0});
+    assert_eq!(Foo{ x: 3, b: 2 } % Foo{ x: 2, b: 1 }, Foo{ x: 1, b: 0 });
 }
 #[test]
 fn neg(){
-    assert_eq!(-Foo{ x: 2, b: 1}, Foo{ x: -2, b: -1});
+    assert_eq!(-Foo{ x: 2, b: 1 }, Foo{ x: -2, b: -1 });
 }
