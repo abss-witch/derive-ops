@@ -1,4 +1,4 @@
-use derive_ops::{CmpAdd, CmpAddAssign, CmpDiv, CmpDivAssign, CmpMul, CmpMulAssign, CmpNeg, CmpOps, CmpRem, CmpRemAssign, CmpSub, CmpSubAssign};
+use derive_cmp_ops::{CmpAdd, CmpAddAssign, CmpDiv, CmpDivAssign, CmpMul, CmpMulAssign, CmpNeg, CmpOps, CmpRem, CmpRemAssign, CmpSub, CmpSubAssign};
 #[derive(PartialEq, Eq, Debug)]
 #[derive(CmpAdd, CmpSub, CmpMul, CmpDiv, CmpRem, CmpAddAssign, CmpSubAssign, CmpMulAssign, CmpDivAssign, CmpRemAssign, CmpNeg)]
 struct Foo{
