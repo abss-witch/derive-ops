@@ -6,6 +6,7 @@ readme = "README.md"
 description = "Derives for componetwise opperations"
 repository = "https://github.com/abss-witch/derive-ops/"
 keywords = ["math", "derive", "macro", "ops"]
+license = "MIT OR Apache-2.0"
 
 [lib]
 proc-macro = true
