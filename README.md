@@ -1,6 +1,6 @@
 Custom derive macros to implement component wise opperations.
 ```rust
-use derive_ops::CmpOps;
+use derive_cmp_ops::CmpOps;
 #[derive(CmpOps)]
 struct Point{
     a: f32,
@@ -10,7 +10,7 @@ struct Point{
 ```
 Alternatively you can include individual opperations.
 ```rust
-use derive_ops::{CmpRemAssign, CmpMul};
+use derive_cmp_ops::{CmpRemAssign, CmpMul};
 #[derive(CmpRemAssign, CmpMul)]
 struct Point{
     a: f32,
